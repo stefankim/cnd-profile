@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: image_block
+label: 'Image block'
+effects:
+  ef7cc5a3-1fd9-40d3-a4d6-662dd940bfd3:
+    uuid: ef7cc5a3-1fd9-40d3-a4d6-662dd940bfd3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1000
+      height: 934
+      anchor: center-center

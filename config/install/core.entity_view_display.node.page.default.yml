@@ -1,0 +1,87 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_yoast_seo
+    - field.field.node.page.layout_builder__layout
+    - node.type.page
+  module:
+    - layout_builder
+    - layout_builder_restrictions
+    - user
+  theme:
+    - cnd_basic
+third_party_settings:
+  layout_builder:
+    allow_custom: true
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          style: null
+        components:
+          d22346b1-7930-4827-84fd-afa6bcefd566:
+            uuid: d22346b1-7930-4827-84fd-afa6bcefd566
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label: Body
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
+  layout_builder_restrictions:
+    allowed_blocks:
+      'Chaos Tools': {  }
+      Content: {  }
+      'Content fields': {  }
+      core: {  }
+      Forms: {  }
+      Help: {  }
+      'Lists (Views)': {  }
+      Menus: {  }
+      'Responsive menu': {  }
+      System: {  }
+      User: {  }
+      'User fields': {  }
+      Webform: {  }
+    allowed_layouts:
+      - layout_onecol
+      - layout_twocol
+      - layout_threecol_25_50_25
+      - layout_threecol_33_34_33
+      - layout_fourcol_25_25_25_25
+      - layout_twocol_34_66
+      - layout_twocol_66_34
+      - layout_threecol_50_25_25
+      - layout_threecol_25_25_50
+      - layout_twocol_25_75
+      - layout_twocol_75_25
+      - layout_twocol_42_58
+      - layout_twocol_58_42
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  body: true
+  field_meta_tags: true
+  field_yoast_seo: true
+  layout_builder__layout: true

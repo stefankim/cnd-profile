@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_block
+    - field.field.block_content.video_block.field_video
+  module:
+    - video_embed_field
+id: block_content.video_block.default
+targetEntityType: block_content
+bundle: video_block
+mode: default
+content:
+  field_video:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

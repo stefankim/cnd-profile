@@ -1,0 +1,24 @@
+{
+  "name": "cnd-profile",
+  "title": "CND Profile",
+  "description": "CND instalation profile",
+  "version": "1.0",
+  "license": "MIT",
+  "keywords": [
+  ],
+  "author": {
+   
+  },
+  "contributors": [
+    {
+     
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefankim/cnd-profile.git"
+  },
+  "bugs": {
+  },
+  "dependencies": {},
+}

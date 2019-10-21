@@ -1,0 +1,86 @@
+name: Consult and Design Profile
+type: profile
+description: 'Custom Consult and Design install with commonly used modules, content and block types pre-configured.'
+core: 8.x
+version: '8.x-1.0'
+install:
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - datetime_range
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+  - inline_form_errors
+  - layout_builder
+  - layout_discovery
+  - media
+  - responsive_image
+  - settings_tray
+  - update
+  - admin_toolbar
+  - admin_toolbar_tools
+  - advagg
+  - ctools
+  - context
+  - context_active_trail
+  - context_ui
+  - media_library
+  - link
+  - telephone
+  - text
+  - backup_migrate
+  - block_class
+  - layout_builder_restrictions
+  - layout_builder_styles
+  - libraries
+  - link_class
+  - pathauto
+  - redirect
+  - redirect_404
+  - responsive_menu
+  - token
+  - twig_tweak
+  - metatag
+  - metatag_twitter_cards
+  - metatag_views
+  - yoast_seo
+  - google_analytics
+  - eu_cookie_compliance
+  - video_embed_field
+  - webform
+  - webform_ui
+  - xmlsitemap
+  - cnd_layouts
+themes:
+  - bartik
+  - seven
+  - cnd_basic

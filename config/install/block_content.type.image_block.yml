@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: image_block
+label: 'Image block'
+revision: 0
+description: 'An image block contains an image field.'

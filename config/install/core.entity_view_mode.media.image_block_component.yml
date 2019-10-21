@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.image_block_component
+label: 'Image block component'
+targetEntityType: media
+cache: true

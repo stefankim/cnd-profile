@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: basic
+label: 'Text block'
+revision: 0
+description: 'A text block contains a title and a body.'
