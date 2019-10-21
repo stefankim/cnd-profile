@@ -2,7 +2,6 @@
     "name": "stefankim/cnd-profile",
     "description": "CND Profile.",
     "type": "drupal-profile",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Nathan Lawson",
