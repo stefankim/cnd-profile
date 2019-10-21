@@ -9,5 +9,7 @@
             "email": "nathan@consultanddesign.com"
         }
     ],
-    "require": {}
+    "require": {
+    "composer/installers": "~1.0"
+    }
 }
